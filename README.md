@@ -5,6 +5,8 @@ In addition, we also provided features that allowed the user to utilise multiple
 
 This project was developed in C/C++ in conjunction with Qt for the Graphical User interface. It is possible to use the program in console only mode, however. No additional packages were used. The intention was to provide a bare bone experience in the sense that any user could install this program and only need this program with no dependencies (aside from Qt).
 
+For more information on the production, implementation, and testing of SysMon please reffer to the final report pdf which show cases all our labours as well as usage snapshots.
+
 ## BUILDING REQUIREMENTS
 For libprocps:
 
@@ -20,15 +22,6 @@ Update your OSD to allow for -t to work here http://www.webupd8.org/2010/05/fina
 ## Background
 
 Using the Linux operating system, this utility offers a simple to use system monitor, that provides system information for temperatures of various hardware components. In addition, the software also the ability to detect memory leaks from running processes.
-
-
-## Motivation
-
-The built in software does not have this capability and requires more work that necessary.
-
-## Goals
-
-Our goal is provide the user with a friendly graphical interface that allows the user to view their system's information without doing a ton of work. We also aim to provide the user with useful tools that detect potential problems, such as a memory leak.
 
 ## Authors
 
